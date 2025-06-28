@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aromas del Alma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu-container">
+            <div id="menu" class="menu-icono">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <a href="#" class="logo">Aromas del Alma</a>
+            
+            <div class="submenu">
+                <img src="images/car.svg" id="img-carrito" alt="Carrito">
+                <div id="carrito">
+                    <table id="lista-carrito">
+                        <thead>
+                            <tr>
+                                <th>Imagen</th>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Productos se agregarán dinámicamente -->
+                        </tbody>
+                    </table>
+                    <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                </div>
+            </div>
+            
+            <nav class="navbar">
+                <div class="close-menu">×</div>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Catálogo</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Horario</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-ofertas">
+        <div class="hero-content container">
+            <div class="hero-img">
+                <img src="images/Moschino Toy2 Bubblegum.jpg" alt="Perfume Moschino Toy2 Bubblegum">
+            </div>
+            <div class="hero-txt">
+                <h1>Ofertas Especiales</h1>
+                <p>Estrena Los Mejores Aromas</p>
+                <a href="#" class="btn-1">Descubrir más</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="Ofert container">
+        <h2>Nuestras Ofertas Destacadas</h2>
+        
+        <div class="Ofert-1">
+            <div class="Ofert-img">
+                <img src="images/Moschino Toy Boy.jpg" alt="Moschino Toy Boy">
+                <div class="Ofert-txt">
+                    <h3>Moschino Toy Boy</h3>
+                    <a href="#" class="btn-2">Más Información</a>
+                </div>
+            </div>
+            <div class="Ofert-img">
+                <img src="images/MOCHINO TOY 2.jpg" alt="Moschino Toy 2">
+                <div class="Ofert-txt">
+                    <h3>Moschino Toy 2</h3>
+                    <a href="#" class="btn-2">Más Información</a>
+                </div>
+            </div>
+            <div class="Ofert-img">
+                <img src="images/Moschino Toy2 Bubblegum.jpg" alt="Moschino Toy 2 Bubblegum">
+                <div class="Ofert-txt">
+                    <h3>Moschino Toy 2 Bubblegum</h3>
+                    <a href="#" class="btn-2">Más Información</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="Ofert-container">
+            <div class="Ofert-slider">
+                <div class="Ofert-slide">
+                    <img src="images/Moschino Toy Boy.jpg" alt="Moschino Toy Boy">
+                    <div class="Ofert-txt">
+                        <h3>Moschino Toy Boy</h3>
+                        <a href="#" class="btn-2">Más Información</a>
+                    </div>
+                </div>
+                <div class="Ofert-slide">
+                    <img src="images/MOCHINO TOY 2.jpg" alt="Moschino Toy 2">
+                    <div class="Ofert-txt">
+                        <h3>Moschino Toy 2</h3>
+                        <a href="#" class="btn-2">Más Información</a>
+                    </div>
+                </div>
+                <div class="Ofert-slide">
+                    <img src="images/Moschino Toy2 Bubblegum.jpg" alt="Moschino Toy 2 Bubblegum">
+                    <div class="Ofert-txt">
+                        <h3>Moschino Toy 2 Bubblegum</h3>
+                        <a href="#" class="btn-2">Más Información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carrusel-controls">
+                <div class="carrusel-dot active"></div>
+                <div class="carrusel-dot"></div>
+                <div class="carrusel-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <main class="products container" id="lista-1">
+        <h2>Productos</h2>
+        
+        <div class="product-content">
+            <div class="product">
+                <div class="product-img-container">
+                    <img src="images/CK EUPHORIA.webp" alt="Calvin Klein Euphoria">
+                </div>
+                <div class="product-txt">
+                    <h3>Calvin Klein Euphoria</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$120.00</p>
+                    <a href="#" class="agregar-carrito btn-2">Agregar al Carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-img-container">
+                    <img src="images/CHANEL N5.jpg" alt="Chanel N5">
+                </div>
+                <div class="product-txt">
+                    <h3>Chanel N5</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$220.00</p>
+                    <a href="#" class="agregar-carrito btn-2">Agregar al Carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-img-container">
+                    <img src="images/CLASSIQUE.webp" alt="Classique">
+                </div>
+                <div class="product-txt">
+                    <h3>Classique</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$135.00</p>
+                    <a href="#" class="agregar-carrito btn-2">Agregar al Carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-img-container">
+                    <img src="images/OPIUM.webp" alt="Opium">
+                </div>
+                <div class="product-txt">
+                    <h3>Opium</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$150.00</p>
+                    <a href="#" class="agregar-carrito btn-2">Agregar al Carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-img-container">
+                    <img src="images/POSION DIOR.jpg" alt="Poison Dior">
+                </div>
+                <div class="product-txt">
+                    <h3>Poison Dior</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$300.00</p>
+                    <a href="#" class="agregar-carrito btn-2">Agregar al Carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-img-container">
+                    <img src="images/SHALIMAR.jpg" alt="Shalimar">
+                </div>
+                <div class="product-txt">
+                    <h3>Shalimar</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$300.00</p>
+                    <a href="#" class="agregar-carrito btn-2">Agregar al Carrito</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="Blog container">
+        <div class="Blog-1">
+            <img src="images/CHANEL LOGO.jpg" alt="Logo Chanel">
+            <div>
+                <h3>CHANEL: Elegancia Atemporal en Cada Gota</h3>
+                <p>Chanel es mucho más que una marca; es un ícono de elegancia, sofisticación y audacia femenina.</p>
+            </div>
+        </div>
+
+        <div class="Blog-2">
+            <img src="images/CD logo.jpg" alt="Logo Christian Dior">
+            <div>
+                <h3>CHRISTIAN DIOR: Donde la Moda Abraza la Fragancia</h3>
+                <p>En el universo Dior, el perfume no solo se lleva, se vive: es el eco invisible de tu audacia y la declaración silenciosa de tu esencia.</p>
+            </div>
+        </div>
+
+        <div class="Blog-3">
+            <img src="images/CK LOGO.jpg" alt="Logo Calvin Klein">
+            <div>
+                <h3>CALVIN KLEIN: Más Allá de la Fragancia, una Declaración</h3>
+                <p>Innovación que perdura: No solo creamos aromas, creamos atmósferas.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Nuestra Tienda</h3>
+                <ul>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Ubicación</a></li>
+                    <li><a href="#">Historia</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Servicio al Cliente</h3>
+                <ul>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                    <li><a href="#">Devoluciones</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Políticas</h3>
+                <ul>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Privacidad</a></li>
+                    <li><a href="#">Envíos</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Síguenos</h3>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Carrusel
+    const carrusel = document.querySelector('.Ofert-slider');
+    const slides = document.querySelectorAll('.Ofert-slide');
+    const dots = document.querySelectorAll('.carrusel-dot');
+    let currentIndex = 0;
+    let intervalId;
+    const slideInterval = 5000;
+    let isAnimating = false;
+
+    function moveToSlide(index) {
+        if (isAnimating) return;
+        isAnimating = true;
+
+        carrusel.style.transform = `translateX(-${index * 100}%)`;
+
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[index].classList.add('active');
+
+        slides[currentIndex].classList.remove('active');
+        currentIndex = index;
+
+        resetInterval();
+
+        setTimeout(() => {
+            isAnimating = false;
+        }, 600);
+    }
+
+    function nextSlide() {
+        const newIndex = (currentIndex + 1) % slides.length;
+        moveToSlide(newIndex);
+    }
+
+    function startInterval() {
+        intervalId = setInterval(nextSlide, slideInterval);
+    }
+
+    function resetInterval() {
+        clearInterval(intervalId);
+        startInterval();
+    }
+
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            moveToSlide(index);
+        });
+        
+        // CORRECCIÓN: Añadir soporte touch para dots
+        dot.addEventListener('touchend', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            moveToSlide(index);
+        });
+    });
+
+    // CORRECCIÓN: Carrusel mobile y tablet mejorado
+    if (window.innerWidth <= 1024) {
+        slides.forEach(slide => {
+            slide.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                if (this.classList.contains('active')) {
+                    this.classList.remove('active');
+                } else {
+                    slides.forEach(s => s.classList.remove('active'));
+                    this.classList.add('active');
+                }
+            });
+
+            // Mejorado: Usar touchend en lugar de touchstart para mejor UX
+            slide.addEventListener('touchend', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                if (this.classList.contains('active')) {
+                    this.classList.remove('active');
+                } else {
+                    slides.forEach(s => s.classList.remove('active'));
+                    this.classList.add('active');
+                }
+            });
+        });
+
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.Ofert-slide') && !e.target.closest('.carrusel-dot')) {
+                slides.forEach(slide => slide.classList.remove('active'));
+            }
+        });
+
+        document.addEventListener('touchend', function(e) {
+            if (!e.target.closest('.Ofert-slide') && !e.target.closest('.carrusel-dot')) {
+                slides.forEach(slide => slide.classList.remove('active'));
+            }
+        });
+    }
+
+    // Menú móvil y tablet
+    const menuBtn = document.getElementById('menu');
+    const navbar = document.querySelector('.navbar');
+    const closeMenuBtn = document.querySelector('.close-menu');
+
+    menuBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        navbar.classList.toggle('active');
+        this.classList.toggle('active');
+        closeMenuBtn.style.display = closeMenuBtn.style.display === 'block' ? 'none' : 'block';
+        document.body.style.overflow = navbar.classList.contains('active') ? 'hidden' : '';
+    });
+
+    // CORRECCIÓN: Añadir soporte touch para menú
+    menuBtn.addEventListener('touchend', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        navbar.classList.toggle('active');
+        this.classList.toggle('active');
+        closeMenuBtn.style.display = closeMenuBtn.style.display === 'block' ? 'none' : 'block';
+        document.body.style.overflow = navbar.classList.contains('active') ? 'hidden' : '';
+    });
+
+    closeMenuBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        navbar.classList.remove('active');
+        menuBtn.classList.remove('active');
+        this.style.display = 'none';
+        document.body.style.overflow = '';
+    });
+
+    // CORRECCIÓN: Añadir soporte touch para cerrar menú
+    closeMenuBtn.addEventListener('touchend', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        navbar.classList.remove('active');
+        menuBtn.classList.remove('active');
+        this.style.display = 'none';
+        document.body.style.overflow = '';
+    });
+
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.navbar') && !e.target.closest('#menu')) {
+            navbar.classList.remove('active');
+            menuBtn.classList.remove('active');
+            closeMenuBtn.style.display = 'none';
+            document.body.style.overflow = '';
+        }
+    });
+
+    // CORRECCIÓN: Añadir soporte touch para cerrar menú al tocar fuera
+    document.addEventListener('touchend', function(e) {
+        if (!e.target.closest('.navbar') && !e.target.closest('#menu')) {
+            navbar.classList.remove('active');
+            menuBtn.classList.remove('active');
+            closeMenuBtn.style.display = 'none';
+            document.body.style.overflow = '';
+        }
+    });
+
+    document.querySelectorAll('.navbar a').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            navbar.classList.remove('active');
+            menuBtn.classList.remove('active');
+            closeMenuBtn.style.display = 'none';
+            document.body.style.overflow = '';
+        });
+        
+        // CORRECCIÓN: Añadir soporte touch para links del menú
+        link.addEventListener('touchend', function(e) {
+            e.preventDefault();
+            navbar.classList.remove('active');
+            menuBtn.classList.remove('active');
+            closeMenuBtn.style.display = 'none';
+            document.body.style.overflow = '';
+        });
+    });
+
+    // CORRECCIÓN: Carrito funcional en mobile/tablet (versión mejorada)
+    const carritoIcono = document.getElementById('img-carrito');
+    const carrito = document.getElementById('carrito');
+    let carritoAbierto = false;
+
+    if (carritoIcono && carrito) {
+        function toggleCarrito(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            carritoAbierto = !carritoAbierto;
+            carrito.classList.toggle('active', carritoAbierto);
+        }
+
+        function cerrarCarrito() {
+            carritoAbierto = false;
+            carrito.classList.remove('active');
+        }
+
+        // Eventos unificados para click y touch
+        carritoIcono.addEventListener('click', toggleCarrito);
+        carritoIcono.addEventListener('touchend', function(e) {
+            e.preventDefault();
+            toggleCarrito(e);
+        });
+
+        // Prevenir cierre al interactuar dentro del carrito
+        carrito.addEventListener('click', function(e) {
+            e.stopPropagation();
+        });
+
+        carrito.addEventListener('touchend', function(e) {
+            e.stopPropagation();
+        });
+
+        // Cerrar carrito al hacer click/touch fuera
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.submenu')) {
+                cerrarCarrito();
+            }
+        });
+
+        document.addEventListener('touchend', function(e) {
+            if (!e.target.closest('.submenu')) {
+                cerrarCarrito();
+            }
+        });
+    }
+
+    // CORRECCIÓN: Botones "Agregar al Carrito" mejorados
+    document.querySelectorAll('.agregar-carrito').forEach(boton => {
+        function agregarProducto(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            // Feedback visual
+            boton.style.transform = 'scale(0.95)';
+            boton.textContent = '¡Agregado!';
+            
+            setTimeout(() => {
+                boton.style.transform = '';
+                boton.textContent = 'Agregar al Carrito';
+            }, 1000);
+        }
+
+        boton.addEventListener('click', agregarProducto);
+        boton.addEventListener('touchend', function(e) {
+            e.preventDefault();
+            agregarProducto(e);
+        });
+    });
+
+    // CORRECCIÓN: Botones "Más Información" mejorados
+    document.querySelectorAll('.btn-2').forEach(boton => {
+        function feedbackBoton(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            // Feedback visual
+            this.style.transform = 'scale(0.95)';
+            
+            setTimeout(() => {
+                this.style.transform = '';
+            }, 200);
+        }
+
+        boton.addEventListener('click', feedbackBoton);
+        boton.addEventListener('touchend', function(e) {
+            e.preventDefault();
+            feedbackBoton.call(this, e);
+        });
+    });
+
+    // Iniciar carrusel
+    startInterval();
+});
+</script>
+</body>
+</html>
